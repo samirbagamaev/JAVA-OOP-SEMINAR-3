@@ -141,6 +141,29 @@ public class Main {
         System.out.println();
         team2.sort(Hero::compareTo);
         System.out.println(team2);
+        
+        /*
+        ArrayList<Hero> all = new ArrayList<>();
+        all.addAll(team1);
+        all.addAll(team2);
+        //team1.forEach(unit -> System.out.println(unit.getInfo()));
+        team2.forEach(unit-> System.out.println(unit.getInfo()));
+        System.out.println();
+
+        System.out.println("==============================================");
+        //team2.forEach(unit->unit.step());
+
+        System.out.println();
+        //team2.forEach(unit -> System.out.println(unit.getInfo()));
+
+        // System.out.println();
+        // System.out.println("==============================================");
+ 
+        System.out.println();
+        all.sort(Hero::compareTo);
+        System.out.println(all);
+        */
+      
 
 
     }
